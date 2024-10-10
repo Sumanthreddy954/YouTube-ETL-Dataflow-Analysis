@@ -31,6 +31,4 @@ The dataset from Kaggle contains statistics on daily popular YouTube videos, wit
 3. **Athena**: For querying stored data  
 4. **QuickSight**: For building insightful reports and dashboards
 
-### 🤝 **Contributions**
-Feel free to contribute by optimizing ETL pipelines, enhancing data queries, or improving dashboard visualizations.
 
