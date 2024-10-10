@@ -1,29 +1,36 @@
-# Data Engineering YouTube Analysis Project 
+# 🎥 YouTube ETL Dataflow Analysis 
 
-## Overview
+### 🚀 **Overview**
+This project analyzes **YouTube videos data** to understand trending metrics based on video categories. We use AWS services to manage, process, and transform data efficiently at scale.
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+### 🎯 **Project Goals**
+1. **Data Ingestion**: Collect data from various sources 📥  
+2. **ETL System**: Transform raw data into a structured format 🔄  
+3. **Data Lake**: Store data centrally in Amazon S3 💾  
+4. **Scalability**: Ensure the system grows with data size 📊  
+5. **Cloud Processing**: AWS for large-scale data handling ☁️  
+6. **Reporting**: Build interactive dashboards using QuickSight 📊
 
-## Project Goals
-1. Data Ingestion — Build a mechanism to ingest data from different sources
-2. ETL System — We are getting data in raw format, transforming this data into the proper format
-3. Data lake — We will be getting data from multiple sources so we need centralized repo to store them
-4. Scalability — As the size of our data increases, we need to make sure our system scales with it
-5. Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
-6. Reporting — Build a dashboard to get answers to the question we asked earlier
+### 🛠️ **Tech Stack**
+- **Amazon S3**: Scalable object storage  
+- **AWS IAM**: Secure identity & access management 🔐  
+- **QuickSight**: Business intelligence for data visualization 📊  
+- **AWS Glue**: Serverless data integration tool 🔧  
+- **AWS Lambda**: Serverless computing for real-time processing ⚡  
+- **Athena**: Querying large datasets stored in S3 🔍
 
-## Services we will be using
-1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
-2. AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
-3. QuickSight: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud.
-4. AWS Glue: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.
-5. AWS Lambda: Lambda is a computing service that allows programmers to run code without creating or managing servers.
-6. AWS Athena: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3.
+### 📂 **Dataset**  
+The dataset from Kaggle contains statistics on daily popular YouTube videos, with insights on views, likes, dislikes, and more across various regions.
 
-## Dataset Used
-This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
+### 🗺️ **Architecture Diagram**
+![Architecture](architecture.jpeg)
 
-https://www.kaggle.com/datasets/datasnaek/youtube-new
+### 🌟 **Key Services**
+1. **Amazon S3**: For reliable, scalable storage  
+2. **AWS Glue**: For automating the ETL process  
+3. **Athena**: For querying stored data  
+4. **QuickSight**: For building insightful reports and dashboards
 
-## Architecture Diagram
-<img src="architecture.jpeg">
+### 🤝 **Contributions**
+Feel free to contribute by optimizing ETL pipelines, enhancing data queries, or improving dashboard visualizations.
+
